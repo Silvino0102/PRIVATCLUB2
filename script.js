@@ -3,6 +3,10 @@ js
 // Se estiver usando via <script> no HTML, ignore essa parte
 // import { initializeApp } from "firebase/app";
 // import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+javascript
+function liberarAcesso() {
+  document.getElementById("menu").style.display = "block";
+}
 
 // Configuração do Firebase
 const firebaseConfig = {
